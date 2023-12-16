@@ -20,14 +20,10 @@ import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
-import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import java from "./tech/Java.png";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
 import gfg from "./company/gfg.png";
-import tesla from "./company/tesla.png";
 
 import snake from "./snake.png";
 import water from "./Waterpoll.png";
@@ -59,11 +55,7 @@ export {
   github,
   redux,
   tailwind,
-  typescript,
   threejs,
-  meta,
-  shopify,
-  tesla,
   snake,
   water,
   face,
