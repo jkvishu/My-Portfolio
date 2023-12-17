@@ -38,9 +38,15 @@ const Ball = (props) => {
 };
 
 const BallCanvas = ({ icon }) => {
+  const isMobile = window.innerWidth < 768; // adjust breakpoint as needed
+
+  if (isMobile) {
+    return <img src={icon} alt="Icon" />;
+  }
+
   return (
     <Canvas
-      frameloop='demand'
+      frameloop='always'
       dpr={[1, 2]}
       gl={{ preserveDrawingBuffer: true }}
     >

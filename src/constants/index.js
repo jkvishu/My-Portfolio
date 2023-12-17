@@ -80,10 +80,6 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Java",
-    icon: java,
-  },
-  {
     name: "Tailwind CSS",
     icon: tailwind,
   },
@@ -110,6 +106,10 @@ const technologies = [
   {
     name: "Firebase",
     icon: firebase,
+  },
+  {
+    name: "Java",
+    icon: java,
   },
 ];
 
